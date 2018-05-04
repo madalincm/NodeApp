@@ -6,11 +6,10 @@
     </head>
 
     <body>
-        <h1>{{pageTitle}}</h1>
-        <p1>{{welcomeMessage}}</p1>
+        {{> header}}
 
-        <footer>
-            <p>Copyright {{currentYear}}</p>
-        </footer>
+        <p1>{{screamIt welcomeMessage}}</p1>
+
+        {{> footer}}
     </body>
 </html>
